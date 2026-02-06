@@ -11,7 +11,7 @@
 - tigervnc-viewer
 - matchbox-window-manager
 
-`install --no-install-recommends xserver-xorg xinit xterm tigervnc-viewer matchbox-window-manager`
+`sudo apt install --no-install-recommends xserver-xorg xinit xterm tigervnc-viewer matchbox-window-manager`
 
 ### Set Up:
 Auto login, and auto display on tty1
