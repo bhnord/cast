@@ -14,7 +14,7 @@ fi
 
 # Configure the correct monitor using the captured name
 # 1920x1080, positioned at 1920x0, Scale 1
-hyprctl keyword monitor "$NEW_MONITOR, 1920x1080@60, 1920x0, 1" > /dev/null
+hyprctl keyword monitor "$NEW_MONITOR, 1024x768@30, 1920x0, 1" >/dev/null
 
 # 4. Start wayvnc specifically on that ticket
 echo "Started wayvnc on $NEW_MONITOR."

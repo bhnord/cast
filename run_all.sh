@@ -6,4 +6,4 @@
 IP=$(ip -4 addr show wlan0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
 
 # adjust ssh location as needed
-ssh bhnord@tv-link "sudo bash -s" < ./sink-script.sh "$IP" > /dev/null 2>&1
+ssh bhnord@pi3-tv-link "sudo bash -s" < ./sink-script.sh "$IP" > /dev/null 2>&1
